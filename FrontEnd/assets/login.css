@@ -146,18 +146,13 @@ a:active {
 	border: none;
 	font-size: 1.2em;
 }
+#box-error {
+	min-width: 100px;
+	min-height: 40px;
+}
 #msg-error {
 	display: none;
-	flex-direction: row;
-	gap: 10px;
-	align-items: center;
-	border: 1px solid red;
-	border-radius: 60px;
-	background-color: red;
-	color: white;
-	font-family: 'Syne';
-	padding: 10px 20px;
-	font-size: 1.2em;
+	color: red;
 }
 input[type="submit"]{
 	font-family: 'Syne';
